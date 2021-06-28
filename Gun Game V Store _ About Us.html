@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://beta.gungame.store/about-us -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" src="./Gun Game V Store _ About Us_files/ade4f02621"></script><script src="./Gun Game V Store _ About Us_files/nr-1177.min.js.download"></script><script type="text/javascript" async="" src="./Gun Game V Store _ About Us_files/ga.js.download"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"ade4f02621",applicationID:"507442138"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Gun Game V Store | About Us</title>
+
+    <link href="./Gun Game V Store _ About Us_files/style.min.css" rel="stylesheet">
+   
+    <link rel="shortcut icon" href="https://dunb17ur4ymx4.cloudfront.net/webstore/favicons/197c50b6f621a85d65db94523ec98498a43b97bf.png">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        
+        _gaq.push(['_setAccount', 'UA-36735942-3']);
+        _gaq.push(['_trackPageview']);
+        
+                    _gaq.push(['b._setAccount', 'UA-9229957-7']);
+            _gaq.push(['b._trackPageview']);
+                
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+    <style>@import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700,900);
+
+/* Highlight */
+::selection {
+  background: #9e9375;
+  color: #fff;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Background */
+body {
+  /*background: #74674a url(https://i.imgur.com/J3iZi2h.jpg); */ /* Changeable Background */
+  background-color: #5d4037;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+  /*box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);*/
+  margin-top: 70px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #9dbddc;
+  border-radius: 5px;
+}
+
+/* Header and Logos */
+.header {
+  margin-bottom: 100px;
+  background-color: #9e9375;
+  padding: 8px 16px 8px 16px;
+  width: 100vw;
+  position: fixed;
+  top: -30px;
+  left: 0;
+  z-index: 2;
+  height: 60px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.header .logo {
+  display: inline-block;
+  margin-left: 12vw;
+  color: #fff;
+}
+.header .logo a:before {
+  content: url('');
+  animation-name: rock;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.header .logo img {
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 40px;
+}
+@keyframes rock {
+  0% {
+     -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+  50% {
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  100% {
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+}
+.header .buttons {
+  width: auto;
+  float: none;
+  height: 40px;
+  margin-right: 12vw;
+  padding: 0;
+}
+
+.header .buttons .toolbar {
+  width: auto;
+  margin: 0;
+  position: relative;
+  top: -15px;
+}
+
+/* Navigation Bar */
+.navbar-default {
+  background: #9e9375; /*#74674a;*/
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:visited,
+.navbar-default .navbar-nav li a:link {
+  color: #fff;
+  text-decoration: none;
+  background: none;
+  font-size: 16px;
+}
+.navbar-default .navbar-nav li a:hover {
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav .active {
+  opacity 0.8;
+  color: white;
+}
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:visited,
+.navbar-default .navbar-nav .active a:link {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav .active a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav .open a:focus {
+  background: #9dbddc;
+  color: #fff;
+}
+.dropdown-menu {
+  background: #9e9375;
+  border: 0;
+  border-radius: 0;
+}
+.dropdown-menu li a {
+  background: #9e9375;
+  color: #fff;
+  transition: .3s all ease-in;
+  font-family: 'Oxygen', sans-serif;
+}
+.dropdown-menu li a:hover {
+  background: #0692b5;
+  color: #fff;
+}
+.dropdown-menu-right {
+  background: #fff;
+}
+.dropdown-menu .active a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #00ace6;
+}
+.dropdown-menu .active a:hover {
+  background-color: #0692b5;
+}
+
+/* Panels */
+.panel { 
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom:10px;
+}
+.panel .panel-heading {
+  background: #9e9375;
+  border: 0;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.panel-body {
+  background: #fff;
+}
+.panel-body a {
+  color: #999;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s all ease-in;
+}
+.panel-body a:hover {
+  color: #000;
+}
+
+/* Modals */
+.modal {
+  text-shadow: none;
+  opacity: 1;
+}
+.modal-header {
+  background: #9e9375;
+  border: 0;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius 0 !important;
+}
+.modal-body {
+  background: #fff;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.modal-body-image {
+    float:left;
+}
+.modal-body-image:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*.modal-body-image img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
+.modal-body-description {
+    padding: 1em 1em 1em 1em;
+    text-align: left;
+}
+
+.modal-body-image p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.modal-footer {
+  background: #9e9375;
+  border: 0;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  background: #5d4037 !important;
+  border: none;
+  border-bottom: 2px solid #9e9375 !important;
+  border-radius: 10% !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  padding: 4px 16px 4px 16px;
+}
+
+.btn:hover {
+  opacity: 1 !important;
+}
+
+.category .packages-image .package .info .button {
+  width: auto !important;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background: #0099cc;
+}
+.progress { 
+  background: #fff;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Footer */
+.footer {
+  margin: 15px 0 0 0;
+  margin-top:auto;
+  background: #9e9375;
+  border: 0;
+  opacity: 1;
+  padding: 5px 25px 5px 25px;
+}
+.footer:before {
+  color: white;
+  content: '';
+  display: table;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+.branding {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  margin-right: 10vw;
+}
+
+.branding a {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s all ease-in;
+}
+.branding a:hover {
+  color: white;
+}
+.language {
+    margin-left: 10vw;
+}
+.language a {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s all ease-in;
+}
+.language a:hover {
+  color: #fff;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100vw;
+  }
+  .navbar-default .navbar-brand {
+    color: white;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  .header {
+    top: 0;
+    height: 120px;
+    left: 15px;
+  }
+}
+
+.category .packages-image .package .info .text {
+    font-size: 14px;
+}
+
+.body .content {
+    padding-right: 5px;
+}
+
+.body .sidebar {
+    padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .body .sidebar {
+        width: 25%;
+    }
+    .body .content {
+        width: 75%;
+    }
+}</style>
+
+  </head>
+  <body>
+<script type="text/javascript">
+    function getSiftSession() {
+        var name = 'siftSession' + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+
+        var siftSession = '861897' + Math.random()*1000 + Math.round((new Date()).getTime() / 1000);
+
+        document.cookie = "siftSession=" + siftSession + ";path=/";
+        return siftSession;
+    }
+
+    var _sessionId = getSiftSession();
+    var _sift = window._sift = window._sift || [];
+    _sift.push(['_setAccount', 'f73cec942e']);
+    _sift.push(['_setUserId', '']);
+    _sift.push(['_setSessionId', _sessionId]);
+    _sift.push(['_trackPageview']);
+
+    (function() {
+        function ls() {
+            var e = document.createElement('script');
+            e.src = 'https://cdn.sift.com/s.js';
+            document.body.appendChild(e);
+        }
+        if (window.attachEvent) {
+            window.attachEvent('onload', ls);
+        } else {
+            window.addEventListener('load', ls, false);
+        }
+    })();
+</script>
+
+    <div class="container">
+
+      <div class="header">
+
+        <div class="logo">
+                            <a href="https://beta.gungame.store/"><img src="./Gun Game V Store _ About Us_files/c57a6c1baef37ad034a5b7dadf09441f48d71eb1.png"></a>
+                    </div>
+
+        <div class="buttons">
+          <div class="toolbar">
+            <div class="logout">
+                 <a href="https://beta.gungame.store/login" class="btn btn-info">Login</a>
+                            </div>
+            <div class="currency">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                EUR <span class="fa fa-caret-down"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                                                            <li>
+                          <a href="https://beta.gungame.store/about-us?currency=AUD">AUD</a>
+                        </li>
+                                                                                <li>
+                          <a href="https://beta.gungame.store/about-us?currency=BRL">BRL</a>
+                        </li>
+                                                                                <li>
+                          <a href="https://beta.gungame.store/about-us?currency=CAD">CAD</a>
+                        </li>
+                                                                                                                    <li>
+                          <a href="https://beta.gungame.store/about-us?currency=DKK">DKK</a>
+                        </li>
+                                                                                <li class="active">
+                          <a href="https://beta.gungame.store/about-us?currency=EUR">EUR</a>
+                        </li>
+                                                                                                                                                                                                                                                                                                        <li>
+                          <a href="https://beta.gungame.store/about-us?currency=NOK">NOK</a>
+                        </li>
+                                                                                <li>
+                          <a href="https://beta.gungame.store/about-us?currency=NZD">NZD</a>
+                        </li>
+                                                                                                                    <li>
+                          <a href="https://beta.gungame.store/about-us?currency=PLN">PLN</a>
+                        </li>
+                                                                                <li>
+                          <a href="https://beta.gungame.store/about-us?currency=GBP">GBP</a>
+                        </li>
+                                                                                                                    <li>
+                          <a href="https://beta.gungame.store/about-us?currency=SEK">SEK</a>
+                        </li>
+                                                                                                                                                                                                                                <li>
+                          <a href="https://beta.gungame.store/about-us?currency=USD">USD</a>
+                        </li>
+                                                                                                                                                                                                  </ul>
+            </div>
+            <div class="basket">
+                                  <a href="https://beta.gungame.store/about-us#" class="btn btn-info" disabled="disabled"><i class="icon-shopping-cart icon-white"></i> 
+                  0 item(s) for 0.00 EUR
+                  </a>
+                            </div>
+          </div>
+        </div>
+
+      </div> 
+        
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://beta.gungame.store/">Gun Game V Store</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="https://beta.gungame.store/">Home</a></li>
+                                                      <li class=""><a href="https://beta.gungame.store/category/bundles">Bundles</a></li>
+                                                                        <li class=""><a href="https://beta.gungame.store/category/queue-priority">Queue Passes</a></li>
+                                                                        <li class=""><a href="https://beta.gungame.store/category/ranks">Ranks</a></li>
+                                                                        <li class=""><a href="https://beta.gungame.store/category/currency">Currency</a></li>
+                                                                      <li class="active"><a href="https://beta.gungame.store/about-us">About Us</a></li>
+                                
+                                            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="notification">
+          
+      </div>
+
+      	<div class="body row row-fluid">
+		<div class="content span8 col-md-8">
+			<div class="panel panel-default box-container">
+				<div class="panel-heading">About Us</div>
+				<div class="panel-body content">
+				    <div style="text-align:center;"><iframe width="560" height="315" src="./Gun Game V Store _ About Us_files/XMx9xISglFg.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+				    </div>
+					<p>
+				  		</p><p style="text-align:center;"><span style="font-size:16px;">As one of a kind, Gun Game for FiveM is the only gun game server on the popular free-to-play GTA V modification framework FiveM. Inspired by the popular mod of the Counterstrike series, we provide gameplay mechanics that makes you feel right at home.</span></p><p style="text-align:center;"><span style="font-size:16px;">Additional unique mechanics makes Gun Game for FiveM one of the most popular deathmatch servers for FiveM.</span></p><p style="text-align:center;"><br></p><p style="text-align:center;"><br></p><p style="text-align:center;"><strong>Got a question or need support? Join our <a href="https://discord.gg/r5q7MHQ" target="_blank" rel="noreferrer noopener">Discord&nbsp;</a>server or email us&nbsp;</strong><a href="mailto:support@gungame.store"><strong>support@gungame.store</strong></a></p>
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar span4 col-md-4">
+			    <div class="panel panel-default module">
+        <div class="panel-heading">Most Popular Product</div>
+        <div class="panel-body">
+          <div class="featured-package">
+            <div class="image">
+                <a href="javascript:void(0);" data-remote="/package/3988769" class="toggle-modal">
+                    <img src="./Gun Game V Store _ About Us_files/77502e68d16f15b86df2874618071f5465e88493.png" class="toggle-tooltip img-rounded" title="" data-original-title="Click for more details">
+                </a>
+            </div>
+            <div class="info">
+              <div class="text">
+                <div class="name">Gold Sponsor</div>
+                <div class="price">
+                        					    					9.99 <small>EUR</small>
+    				                </div>
+              </div>
+              <div class="button">
+                                    <a href="javascript::void(0);" data-remote="/package/3988769" class="btn btn-info btn-sm btn-block toggle-modal">Buy</a>
+                              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<div class="panel panel-default module">
+    <div class="panel-heading">Recent Purchases</div>
+    <div class="panel-body">
+      <ul class="payments">
+                    <li>
+              <div class="avatar">
+                <img src="./Gun Game V Store _ About Us_files/227541_2.png" width="28">
+              </div>
+              <div class="info">
+                <div class="ign">
+                    SpecTruM
+                                    </div>
+                <div class="extra">
+                                            Gold Sponsor
+                                                                •
+                                                                7.99 <small>EUR</small>
+                                    </div>
+              </div>
+            </li>
+                    <li>
+              <div class="avatar">
+                <img src="./Gun Game V Store _ About Us_files/128724_2.png" width="28">
+              </div>
+              <div class="info">
+                <div class="ign">
+                    cruced
+                                    </div>
+                <div class="extra">
+                                            Gold Sponsor
+                                                                •
+                                                                7.99 <small>EUR</small>
+                                    </div>
+              </div>
+            </li>
+                    <li>
+              <div class="avatar">
+                <img src="./Gun Game V Store _ About Us_files/256.png" width="28">
+              </div>
+              <div class="info">
+                <div class="ign">
+                    LastAjax
+                                    </div>
+                <div class="extra">
+                                            Queue Pass (Life)
+                                                                •
+                                                                7.19 <small>EUR</small>
+                                    </div>
+              </div>
+            </li>
+                    <li>
+              <div class="avatar">
+                <img src="./Gun Game V Store _ About Us_files/256(1).png" width="28">
+              </div>
+              <div class="info">
+                <div class="ign">
+                    ETNachHauseOnanieren
+                                    </div>
+                <div class="extra">
+                                            Rank 20
+                                                                •
+                                                                4.62 <small>EUR</small>
+                                    </div>
+              </div>
+            </li>
+              </ul>
+    </div>
+</div>
+		</div>
+	</div>
+
+          
+    </div>
+    <div class="footer">
+      <div class="language">
+          <div class="dropdown dropup">
+            <a href="https://beta.gungame.store/about-us#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-globe"></span>Language</a>
+            <ul class="dropdown-menu up">
+                          </ul>
+          </div>
+      </div>
+              <div class="branding"> 
+          <!-- Do not remove the Buycraft branding if you are not on the Ultimate Plan. Your account will be deleted. -->
+          Powered by <a href="http://tebex.io/" target="_blank">Tebex</a>
+        </div>
+          </div>
+    <div class="modal" id="popup-modal" tabindex="-1" role="dialog"></div>
+    
+        
+    <script src="./Gun Game V Store _ About Us_files/jquery.min.js.download"></script>  
+    <script src="./Gun Game V Store _ About Us_files/bootstrap.min.js.download"></script>
+    <script src="./Gun Game V Store _ About Us_files/skin.min.js.download"></script>
+    <script src="./Gun Game V Store _ About Us_files/site.js.download"></script>
+     <script>
+            jQuery(function(){
+                var countdowns = $(".countdown-to");
+                countdowns.each(function(){
+                   setInterval(function(ele) {
+                       timeLeft = parseInt(ele.attr("data-countdown"));
+                       if (timeLeft == 0) {
+                           ele.html("Time Expired!");
+                       } else {
+                       timeLeft--;
+                       ele.attr("data-countdown", timeLeft);
+                      var days = Math.floor(timeLeft / (60 * 60 * 24));
+                      var hours = Math.floor((timeLeft % (60 * 60 * 24)) / (60 * 60));
+                      var minutes = Math.floor((timeLeft % (60 * 60)) / (60));
+                      var seconds = Math.floor((timeLeft % 60));
+                      ele.html(days + "d " + hours + "h " + minutes + "m " + seconds + "s");
+                       }
+                   }, 1000, jQuery(this));
+                });
+            });
+
+        </script>
+  <script>	
+    jQuery(".card-container").eq(0).remove();	
+</script>	
+<script type="text/javascript" src="./Gun Game V Store _ About Us_files/discord.js.download"></script>
+<div id="waiting-overlay" style="display: none;">	
+    <i class="fa fa-cog fa-spin fa-3x"></i>	
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ade4f02621","applicationID":"507442138","transactionName":"ZQAEZUBYWBVTBRZbXlxKJ1JGUFkIHTQHVFRAFwNDHVBYAlce","queueTime":0,"applicationTime":134,"atts":"SUcHEwhCSxs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script src="./Gun Game V Store _ About Us_files/s.js.download"></script></body></html>
